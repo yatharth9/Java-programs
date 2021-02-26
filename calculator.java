@@ -23,7 +23,7 @@ public class calculator {
                 System.out.println(ans1 + " = " + num1 + oper + num2);
                 break;
 
-                case '*':
+                case 'x':
                 int ans2 = num1 * num2;
                 System.out.println(ans2 + " = " + num1 + oper + num2);
                 break;
