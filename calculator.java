@@ -1,5 +1,11 @@
 public class calculator {
     public static void main(String[] args) {
+        System.out.println(args.length);
+        int x = args.length;
+        for(int i = 0; i < x; i++)
+        {
+            System.out.println(args[i]);
+        }
         if(args.length < 2 || args.length > 3)
         {
             System.out.println("Error: Usage: num1 operator num2");
@@ -23,7 +29,7 @@ public class calculator {
                 System.out.println(ans1 + " = " + num1 + oper + num2);
                 break;
 
-                case 'x':
+                case '*':
                 int ans2 = num1 * num2;
                 System.out.println(ans2 + " = " + num1 + oper + num2);
                 break;
